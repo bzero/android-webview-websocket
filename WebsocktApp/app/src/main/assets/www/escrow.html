@@ -31,7 +31,7 @@
 
     <div align="center">
         <h1></h1>
-        <img src="./images/blinktrade.png" width="50%">
+        <img src="./images/cryptos.png" width="50%">
         <br />
         <img src="http://www.mphonline.com/img/preload.gif" >
         <br />
@@ -55,7 +55,7 @@
 
     <div align="center">
         <h1></h1>
-        <img src="./images/blinktrade.png" width="50%">
+        <img src="./images/cryptos.png" width="50%">
         <br />
         <p> Your Account is not active</p>
 
@@ -68,7 +68,7 @@
 
     <div align="center">
         <h1></h1>
-        <img src="./images/blinktrade.png" width="50%">
+        <img src="./images/cryptos.png" width="50%">
         <br />
         <p> Please enter the second step authentication.</p>
         <input type="text" id="id_second_step">
@@ -89,7 +89,7 @@
 
     <div align="center">
         <h1></h1>
-        <img src="./images/blinktrade.png" width="50%">
+        <img src="./images/cryptos.png" width="50%">
         <br />
         <p> Your password is wrong!</p>
 
@@ -115,7 +115,7 @@ Login
     <div data-role="main" class="ui-content">
         <div align="center">
             <h1></h1>
-            <img src="./images/blinktrade.png" width="50%">
+            <img src="./images/cryptos.png" width="50%">
         </div>
         <form id="id_form_login">
 
@@ -163,7 +163,7 @@ Sign up
 
         <div align="center">
             <h1></h1>
-            <img src="./images/blinktrade.png" width="50%">
+            <img src="./images/cryptos.png" width="50%">
         </div>
 
 
@@ -241,7 +241,7 @@ Menu
 
     <div data-role="main" align="center">
         <br />
-        <img src="./images/blinktrade.png" width="50%">
+        <img src="./images/cryptos.png" width="50%">
         <br />
 
         <a href="#receive" class="ui-btn" value="receive" > Receive </a>
@@ -454,7 +454,7 @@ Balance Report
         </table>
         <div id="id_receive_crypto_payment_no_liquidity_content" align="center" style="display: none">
             <br />
-            <img src="./images/blinktrade.png" width="50%">
+            <img src="./images/cryptos.png" width="50%">
             <br />
             There is no liquidity to complete this transaction!
         </div>
@@ -539,7 +539,8 @@ Dialog transaction Complete
 
   try {
     var app = new MerchantApp();
-    app.run('wss://test.blinktrade.com/trade/');
+    // app.run('wss://test.blinktrade.com/trade/');
+    app.run('wss://23.251.146.97/trade/');
   }
   catch(e) {
     console.log('===>', e);
